@@ -1,0 +1,9 @@
+<div><h1>Restaurants Index</h1></div>
+<div>
+<ul>
+<% @restaurants.each do |restaurant| %>
+  <li><%=  restaurant.name %></li>
+  <li><%=  restaurant.address %></li>
+  <% end %>
+</ul>
+</div>
