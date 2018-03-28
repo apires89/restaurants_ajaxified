@@ -4,6 +4,7 @@
 <% @restaurants.each do |restaurant| %>
   <li><%=  restaurant.name %></li>
   <li><%=  restaurant.address %></li>
+  <%= link_to "See more", restaurant_path(restaurant) %>
   <% end %>
 </ul>
 </div>

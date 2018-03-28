@@ -13,3 +13,9 @@
     <% end %>
   <% end %>
 </div>
+
+<div><h1>Leave a Review here</h1>
+  <%= render 'reviews/form', restaurant: @restaurant, review: @review %>
+</div>
+
+<div><%= link_to "Back", restaurants_path %></div>
